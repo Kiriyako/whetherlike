@@ -22,7 +22,7 @@ let weather = {
      document.querySelector(".temp").innerText = temp + "°C";
      document.querySelector(".country").innerText = country; 
      document.querySelector(".humidity").innerText = "Humidity: " + humidity + "%";
-     document.querySelector(".wind").innerText = "Wind Speed: " + speed + "km/h";
+     document.querySelector(".wind").innerText = "Wind Speed: " + speed + "m/s";
      document.querySelector(".weather").classList.remove("loading");
     },
     search: function(){
